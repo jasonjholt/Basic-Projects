@@ -1,6 +1,11 @@
+""" rolls as many die as the user gives
+
+program terminates when input has characters other than digits
+"""
+
 import random
 
-def roll(die=2):
+def roll(die):
     rolls = []
     for dice in range(die):
         num = random.randint(1,6)
