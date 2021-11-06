@@ -2,7 +2,9 @@
 user has to guess a random 3 digit number
 per digit, if a digit is in the right place, the hint is fermi. if its in the wrong place, pico
 if the digit is not in the expected number, hint is bagels
-10 maximum tries
+10 maximum tries, print a new value everytime an attempt is made
+
+if user is unable to guess, print the expected number
 """
 
 
